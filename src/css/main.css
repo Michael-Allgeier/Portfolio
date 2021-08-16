@@ -149,10 +149,17 @@ body {
 .project iframe {
   box-shadow: 2px 2px 4px black;
   border-radius: 5px;
+  max-width: 500px;
 }
 
 footer {
   background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .project iframe {
+    max-width: 350px;
+  }
 }
 
 @media screen and (max-width: 350px) {
