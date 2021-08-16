@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/e25c005426.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
@@ -44,8 +44,8 @@
           <li class="nav-item"><a class="nav-link" href="#about-section">About Me</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#education-section">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience-section">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects-section">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact-section">Contact Me</a></li>
         </ul>
       </div>
@@ -93,6 +93,8 @@
 
       <div class="education text-center">
         <h3 class="text-light pt-3 mt-3 topic-heading">Education</h3>
+        <div class="row">
+        <div class="col-md-6">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">DeSmet Jesuit High School</h4>
@@ -101,6 +103,8 @@
             <div class="card-text">Diploma</div>
           </div>
         </div>
+        </div>
+        <div class="col-md-6">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Ranken Technical College</h4>
@@ -108,12 +112,17 @@
             <div class="card-text">January 2021 - May 2022</div>
             <div class="card-text">Associate of Technology</div>
             <div class="card-text">Application &amp; Web Development</div>
+            <div id="experience-section"></div>
           </div>
+        </div>
+        </div>
         </div>
       </div>
 
       <div class="work-experience text-center">
         <h3 class="pt-3 mt-3 topic-heading">Work Experience</h3>
+        <div class="row">
+        <div class="col-md-6">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Algonquin Golf Club</h4>
@@ -121,6 +130,8 @@
             <div class="card-text">Caddie</div>
           </div>
         </div>
+        </div>
+        <div class="col-md-6">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Westwood Country Club</h4>
@@ -128,6 +139,8 @@
             <div class="card-text">Caddie</div>
           </div>
         </div>
+        </div>
+        <div class="col-md-6">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Culvers</h4>
@@ -135,28 +148,41 @@
             <div class="card-text">Crew Member</div>
           </div>
         </div>
+        </div>
+        <div class="col-md-6">
         <div class="card">
           <div class="card-body">
+            <div id="projects-section"></div>
             <h4 class="card-title">Sound Health Services</h4>
             <div class="card-text">October 2020 - February 2021</div>
             <div class="card-text">Covid Testing Helper</div>
           </div>
+        </div>
+        </div>
         </div>
       </div>
 
       <div class="project text-center">
         <h3 class="pt-3 mt-3 topic-heading text-light">Projects</h3>
         <div class="row">
-          <div class="col-md-6">
-            <h4>Issue Tracker</h4>
+          <div class="col-lg-6 ">
+            <h4 class="text-decoration-underline">Restaurant Landing Page</h4>
             <iframe src="https://giphy.com/embed/r570U2OZFMMN6lz92o" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/r570U2OZFMMN6lz92o">via GIPHY</a></p>
-            <p>On this project, I learned how to use bootstrap backgrounds, navbars, colors, etc. I also learned how to use the Bootstrap cards and grid system that was used for the menu items</p>
+            <p>On this project, I learned how to use bootstrap backgrounds, navbars, colors, etc. I also learned how to use the Bootstrap cards and grid system that was used for the menu items. I also learned how to add a responsive, interactive map.</p>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="text-decoration-underline">Issue Tracker</h4>
+            <iframe src="https://giphy.com/embed/l0f0T8DpAZH22OXBGa" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l0f0T8DpAZH22OXBGa">via GIPHY</a></p>
+            <div id="contact-section"></div>
+            <p>On this project, I learned how to create, store, edit, and close bugs for projects. This project keeps tracks of bugs for a program and allows developers to create bugs when found, edit the bug info when needed, and close the bugs when fixed. It also allows users to create comments about any bug. This was made possible with CRUD functionality with JQUERY.</p>
           </div>
         </div>
       </div>
 
-      <div class="contact-me text-center" id="contact-section">
-        <script type="text/javascript" src="https://form.jotform.com/jsform/212234263613042"></script>
+      <div class="contact-me text-center">
+        <div class="contact-form">
+          <script type="text/javascript" src="https://form.jotform.com/jsform/212234263613042"></script>
+        </div>
       </div>
     </main>
 
