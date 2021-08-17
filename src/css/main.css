@@ -16,7 +16,7 @@ body {
 
 .jumbotron {
   display: flex;
-  background-image: url(src/img/backgroundimage.jpeg);
+  background-image: url("../img/backgroundimage.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
