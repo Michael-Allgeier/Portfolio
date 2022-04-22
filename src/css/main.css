@@ -132,6 +132,11 @@ body {
   animation-duration: 2s;
 }
 
+.ku-website-image {
+  width: 35vw;
+  height: 40vh;
+}
+
 .contact-me {
   border-bottom: 2px dashed white;
   animation-name: slideinright;
@@ -171,6 +176,11 @@ footer {
   .project iframe {
     max-width: 350px;
   }
+
+  .ku-website-image {
+    width: 80vw;
+    height: 40vh;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -181,6 +191,11 @@ footer {
   .jumbotron img {
     width: 250px;
     height: 200px;
+  }
+
+  .ku-website-image {
+    width: 90vw;
+    height: 40vh;
   }
 }
 
